@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 128px 64px;
-    height: 100px;
+    min-height: 100px;
 }
 
 .title {
@@ -89,7 +89,7 @@ body {
     align-items: center;
     padding: 36px 36px;
     gap: 36px;
-    height: 400px;
+    min-height: 400px;
 }
 
 .subtext-header {
@@ -150,4 +150,12 @@ body {
     display: flex;
     align-self: flex-end;
     font-weight: bold;
+}
+
+/* call to action box */
+
+.sign-up-container {
+    display: flex;
+    margin: 50px;
+    margin-left: 1200px;
 }
