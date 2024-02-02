@@ -14,6 +14,7 @@ body {
     background-color: #1f2937;
     padding: 16px 64px;
     align-items: flex-end;
+    height: 20px;
 }
 
 .header-title {
@@ -40,6 +41,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 128px 64px;
+    height: 100px;
 }
 
 .title {
@@ -55,7 +57,7 @@ body {
 .title-text {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     flex-shrink: 50%;
 }
 
@@ -87,6 +89,7 @@ body {
     align-items: center;
     padding: 36px 36px;
     gap: 36px;
+    height: 400px;
 }
 
 .subtext-header {
@@ -123,5 +126,28 @@ body {
     color: #4a4a4a;
 }
 
+/* quote */
 
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 144px 180px;
+    background-color: #e5e7eb;
+    height: 100px;
+    gap: 8px;
+}
 
+.quote-box {
+    display: flex;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.author-box {
+    display: flex;
+    align-self: flex-end;
+    font-weight: bold;
+}
